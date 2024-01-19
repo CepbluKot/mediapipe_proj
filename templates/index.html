@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <img src="{{ url_for('video_feed') }}" height="80%">
+    
+    
+    
+    <div>
+      <video autoplay muted playsinline id="videoLive" width="1280" height="720"></video>
+    </div>
+
+    <canvas width="1280" height="720" ></canvas>
+    
+    <script src="static/js/main.js"></script>
+    
+  </body>
+</html>
